@@ -1,0 +1,15 @@
+{
+    "project": {
+        "name": "non-cargo-dist releases"
+    },
+    "components": {
+    "changelog": true,
+    "artifacts": {
+        "package_managers": {
+            "preferred" : {
+                "npm": "npm i wasm-pack -g"
+            }
+        }
+    }
+    }
+}
